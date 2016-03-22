@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Templating Example</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Homepage</h1>
+    <a class="btn btn-primary" href="about.html">About Us</a>
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+
+  <script src="./scripts/main.js"></script>
+
+  <script id="family-template" type="text/x-handlebars-template">
+      <li>{{firstname}} {{lastname}} (Aged {{age}})</li>
+  </script>
+
+</body>
+</html>
